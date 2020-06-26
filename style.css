@@ -1,0 +1,47 @@
+*{
+	padding: 0;
+	margin: 0;
+    font-family: Courier New;
+}
+
+
+body{
+	background-image:url(background.jpg); 
+	background-size: cover;
+}
+
+/*nav bar*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #152c32;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #b20437;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+h1{
+	text-align: center;
+	color: #ff7d56;
+	padding: 250px;
+	font-size: 60px;
+	letter-spacing: 2px;
+}
